@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-28 01:51:40 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection_net.net.xml"/>
+        <route-files value="intersection_route.rou.xml"/>
+        <additional-files value="intersection_add.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="my_tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="500"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.5"/>
+        <collision.action value="warn"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="52110"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="huv3" depart="2.50" departLane="2to3_3" departPos="72.20" departPosLat="0.00" departSpeed="12.00" departDelay="0.00" arrival="13.60" arrivalLane="2to3_2" arrivalPos="187.20" arrivalPosLat="1.50" arrivalSpeed="0.72" duration="11.10" routeLength="115.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.52" rerouteNo="0" devices="tripinfo_huv3" vType="sedan" speedFactor="12.00" vaporized=""/>
+    <tripinfo id="huv1" depart="2.50" departLane="2to3_1" departPos="72.20" departPosLat="0.00" departSpeed="12.00" departDelay="0.00" arrival="14.90" arrivalLane="2to3_2" arrivalPos="203.20" arrivalPosLat="-0.03" arrivalSpeed="0.84" duration="12.40" routeLength="131.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.49" rerouteNo="0" devices="tripinfo_huv1" vType="sedan" speedFactor="12.00" vaporized=""/>
+    <tripinfo id="huv4" depart="4.20" departLane="2to3_3" departPos="72.20" departPosLat="0.00" departSpeed="12.00" departDelay="1.70" arrival="16.60" arrivalLane="2to3_2" arrivalPos="187.20" arrivalPosLat="1.04" arrivalSpeed="0.99" duration="12.40" routeLength="115.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.82" rerouteNo="0" devices="tripinfo_huv4" vType="sedan" speedFactor="12.00" vaporized=""/>
+    <tripinfo id="huv2" depart="4.20" departLane="2to3_1" departPos="72.20" departPosLat="0.00" departSpeed="12.00" departDelay="1.70" arrival="17.90" arrivalLane="2to3_2" arrivalPos="203.20" arrivalPosLat="-0.06" arrivalSpeed="1.02" duration="13.70" routeLength="131.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.79" rerouteNo="0" devices="tripinfo_huv2" vType="sedan" speedFactor="12.00" vaporized=""/>
+</tripinfos>

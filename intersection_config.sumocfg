@@ -1,0 +1,18 @@
+<configuration>
+
+<input>
+    <net-file value="intersection_net.net.xml"/>
+    <route-files value="intersection_route.rou.xml"/>
+    <additional-files value="intersection_add.add.xml"/>
+</input>
+
+<time>
+    <begin value="0"/>
+    <end value="500"/>
+</time>
+
+<processing>
+    <lateral-resolution value="0.5"/>
+</processing>
+
+</configuration>

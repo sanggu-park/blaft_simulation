@@ -1,0 +1,74 @@
+<routes>
+    <vType id="sedan" maxSpeed="12.0" speedDev="0.0" maxSpeedLat="5.0" accel="1.8" decel="3.6" emergencyDecel="6.0" length="5.0" width="1.8" height="1.5" lcStrategic="100.0" speedFactor="norm(12,0.8)"/>
+    <vType id="truck" maxSpeed="12.0" speedDev="0.0" maxSpeedLat="5.0" accel="3.0" decel="2.0" emergencyDecel="7.0" length="12.0" width="2.8" height="3.0"/>
+    <vType id="suv" maxSpeed="12.0" speedDev="0.0" maxSpeedLat="5.0" accel="4.0" decel="3.0" emergencyDecel="11.0" length="6.0" width="1.8" height="1.8"/>
+    
+    <route id="route1_5_r" from="n1" to="n5" edges="1to3 3to4 4to6 6to5"/>
+    <route id="route5_1_r" from="n5" to="n1" edges="5to3 3to2 2to0 0to1"/>
+    
+    <route id="route3_1_r" from="n3" to="n3" edges="3to4 4to6 6to5 5to3"/>
+    <route id="route3_2_r" from="n3" to="n3" edges="3to2 2to0 0to1 1to3"/>
+    
+    <route id="route4_2_r" from="n4" to="n2" edges="4to6 6to5 5to3 3to2"/>
+    <route id="route2_4_r" from="n2" to="n4" edges="2to0 0to1 1to3 3to4"/>
+    
+    <route id="route6_0_r" from="n6" to="n0" edges="6to5 5to3 3to2 2to0"/>
+    <route id="route0_6_r" from="n0" to="n6" edges="0to1 1to3 3to4 4to6"/>
+        
+    
+        
+    <route id="route2_5_s" from="n2" to="n5" edges="2to3 3to4 4to6 6to5"/>
+    <route id="route5_2_s" from="n5" to="n2" edges="5to3 3to1 1to0 0to2"/>    
+    
+    <route id="route3_1_s" from="n3" to="n3" edges="3to4 4to6 6to5 5to3"/>
+    <route id="route3_2_s" from="n3" to="n3" edges="3to1 1to0 0to2 2to3"/>  
+        
+    <route id="route4_1_s" from="n4" to="n1" edges="4to6 6to5 5to3 3to1"/>
+    <route id="route1_4_s" from="n1" to="n4" edges="1to0 0to2 2to3 3to4"/>  
+    
+    <route id="route6_0_s" from="n6" to="n0" edges="6to5 5to3 3to1 1to0"/>
+    <route id="route0_6_s" from="n0" to="n6" edges="0to2 2to3 3to4 4to6"/>  
+    
+    
+    <route id="route0_3_l" from="n0" to="n3" edges="0to1 1to3"/>
+    <route id="route3_0_l" from="n3" to="n0" edges="3to2 2to0"/>    
+    
+    <route id="route1_2_l" from="n1" to="n2" edges="1to3 3to2"/>
+    <route id="route2_1_l" from="n2" to="n1" edges="2to0 0to1"/>
+    
+    <route id="route0_3_r" from="n0" to="n3" edges="0to2 2to3"/>
+    <route id="route3_0_r" from="n3" to="n0" edges="3to1 1to0"/>    
+    
+    <route id="route1_2_r" from="n1" to="n2" edges="1to0 0to2"/>
+    <route id="route2_1_r" from="n2" to="n1" edges="2to3 3to1"/>    
+    
+    
+    <route id="route3_6_l" from="n3" to="n5" edges="3to4 4to6"/>
+    <route id="route6_3_l" from="n5" to="n3" edges="6to5 5to3"/>    
+    
+    <route id="route4_5_l" from="n4" to="n5" edges="4to6 6to5"/>
+    <route id="route5_4_l" from="n5" to="n4" edges="5to3 3to4"/>
+    
+    <route id="route3_6_r" from="n3" to="n5" edges="3to5 5to6"/>
+    <route id="route6_3_r" from="n5" to="n3" edges="6to4 4to3"/>    
+    
+    <route id="route4_5_r" from="n4" to="n5" edges="4to3 3to5"/>
+    <route id="route5_4_r" from="n5" to="n4" edges="5to6 6to4"/>    
+    
+    
+    <route id="route_h_1_1" from="n1" to="n6" edges="1to3 3to5 5to6"/>
+    <route id="route_h_1_2" from="n1" to="n5" edges="1to3 3to4 4to6 6to5"/>
+    <route id="route_h_2_1" from="n2" to="n6" edges="2to3 3to5 5to6"/>
+    <route id="route_h_2_2" from="n2" to="n5" edges="2to3 3to4 4to6 6to5"/>
+    
+    
+    <route id="route_h_3_1" from="n4" to="n0" edges="4to3 3to1 1to0"/>
+    <route id="route_h_3_2" from="n4" to="n1" edges="4to3 3to2 2to0 0to1"/>
+    <route id="route_h_4_1" from="n5" to="n0" edges="5to3 3to1 1to0"/>
+    <route id="route_h_4_2" from="n4" to="n1" edges="5to3 3to2 2to0 0to1"/>
+    
+    
+    
+    <route id="test" from="n2" to="n5" edges="2to3"/>
+
+</routes>
